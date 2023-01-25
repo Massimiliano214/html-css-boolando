@@ -12,14 +12,10 @@ body {
 header {
     background-color: rgb(254, 100, 37);
     height: 80px;
-    display: relative;
+    position: fixed;
+    width: 100%;
 }
 
-.container_fixed {
-    display: fixed;
-    top: 0;
-    left: 0;
-}
 
 .container {
     height: 80px;
