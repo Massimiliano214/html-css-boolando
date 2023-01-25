@@ -65,18 +65,16 @@ header {
     margin: 150px auto;
     display: flex;
     flex-wrap: wrap;
-    background-color: orange;
-    max-width: calc(100% / 3);
 }
 
 .foto_desc {
-    background-color: blue;
+    width: calc(100% / 3);
+    padding: 10px;
 }
 
 .invisibile {
     visibility: hidden;
-    height: 500px;
-    padding-left: 20px;
+    width: 100%;
 }
 
 .images:hover .invisibile {
@@ -89,19 +87,18 @@ header {
 
 .images {
     position: relative;
-    background-color: yellow;
+    width: 100%;
 }
 
 .visibile {
     position: absolute;
-    height: 500px;
-    padding-left: 20px;
+    width: 100%;  
 }
 
 .sconto {
     position: absolute;
     bottom: 50px;
-    left: 20px;
+    left: 0;
     background-color: red;
     padding: 5px 10px;
     color: white;
@@ -110,9 +107,9 @@ header {
 
 .sostenibilita {
     position: absolute;
-    bottom: 50px;
-    left: 70px;
     background-color: green;
+    bottom: 50px;
+    left: 55px;
     padding: 5px 10px;
     color: white;
     font-size: 14px;
@@ -149,4 +146,12 @@ header {
 
 .desc h3 {
     padding-left: 20px;
+}
+
+.desc {
+    margin-bottom: 80px;
+}
+
+#sostenibile_vicino {
+    left: 0px;
 }
