@@ -62,13 +62,17 @@ header {
 
 .container_desc {
     max-width: 1170px;
-    margin: 150px auto 50px;
+    margin: 150px auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: orange;
+    max-width: calc(100% / 3);
 }
 
 .foto_desc {
-    max-width: calc(100% / 3);
     background-color: blue;
 }
+
 .invisibile {
     visibility: hidden;
     height: 500px;
@@ -112,4 +116,37 @@ header {
     padding: 5px 10px;
     color: white;
     font-size: 14px;
+}
+
+.cuore {
+    color: black;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.cuore:hover {
+    color: red;
+}
+
+.rosso {
+    color: red;
+    padding-right: 5px;
+    padding-left: 20px;
+}
+
+.barrato {
+    text-decoration: line-through;
+}
+
+.marca {
+    padding-left: 20px;
+    color: darkgray;
+}
+
+.desc h3 {
+    padding-left: 20px;
 }
