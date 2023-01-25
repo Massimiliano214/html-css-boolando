@@ -14,6 +14,8 @@ header {
     height: 80px;
     position: fixed;
     width: 100%;
+    top: 0;
+    left: 0;
 }
 
 
@@ -56,3 +58,36 @@ header {
     color: rgb(230, 230, 230);
     max-width: 300px;
 } 
+
+.container_desc {
+    max-width: 1170px;
+    margin: 150px auto 50px;
+}
+
+.foto_desc {
+    max-width: calc(100% / 3);
+    background-color: blue;
+}
+.invisibile {
+    visibility: hidden;
+    height: 500px;
+    padding-left: 20px;
+}
+
+.images:hover .invisibile {
+    visibility: visible;
+}
+
+.images:hover .visibile{
+    visibility: hidden;
+}
+
+.images {
+    position: relative;
+}
+
+.visibile {
+    position: absolute;
+    height: 500px;
+    padding-left: 20px;
+}
