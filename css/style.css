@@ -16,6 +16,7 @@ header {
     width: 100%;
     top: 0;
     left: 0;
+    z-index: 9;
 }
 
 
@@ -84,10 +85,31 @@ header {
 
 .images {
     position: relative;
+    background-color: yellow;
 }
 
 .visibile {
     position: absolute;
     height: 500px;
     padding-left: 20px;
+}
+
+.sconto {
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+    background-color: red;
+    padding: 5px 10px;
+    color: white;
+    font-size: 14px;
+}
+
+.sostenibilita {
+    position: absolute;
+    bottom: 50px;
+    left: 70px;
+    background-color: green;
+    padding: 5px 10px;
+    color: white;
+    font-size: 14px;
 }
