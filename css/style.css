@@ -38,6 +38,16 @@ header {
 .categorie {
     color: rgb(230, 230, 230);
     width: 30%;
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+}
+
+.categorie a {
+    text-decoration: none;
+    color: rgb(230, 230, 230);
 }
 
 .logo {
@@ -50,7 +60,7 @@ header {
     text-align: right;
 }
 
-.categorie span {
+.categorie li {
     padding: 8px;
 }
 
@@ -62,7 +72,7 @@ header {
 
 .container_desc {
     max-width: 1170px;
-    margin: 150px auto;
+    margin: 150px auto 50px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -154,4 +164,36 @@ header {
 
 #sostenibile_vicino {
     left: 0px;
+}
+
+footer {
+    background-color: black;
+}
+.container_footer {
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    color: white;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.tipo_azienda a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+    padding-left: 0px;
+}
+.tipo_azienda ul, nav ul {
+    display: flex;
+} 
+
+h5 {
+    padding-bottom: 10px;
+}
+
+.colore {
+    color: white;
+    padding: 5px;
 }
