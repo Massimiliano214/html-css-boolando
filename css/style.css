@@ -142,7 +142,6 @@ li {
 .rosso {
     color: red;
     padding-right: 5px;
-    padding-left: 20px;
 }
 
 .barrato {
@@ -150,12 +149,7 @@ li {
 }
 
 .marca {
-    padding-left: 20px;
     color: darkgray;
-}
-
-.desc h3 {
-    padding-left: 20px;
 }
 
 .desc {
